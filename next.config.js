@@ -1,6 +1,7 @@
 const { createLoader } = require('simple-functional-loader')
 const rehypePrism = require('@mapbox/rehype-prism')
 const visit = require('unist-util-visit')
+const tokenClassNames = require('./code-highlighter-token')
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
