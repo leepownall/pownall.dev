@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import twitterCard from '@/img/twitter-card.jpg'
 import Header from '@/components/Header'
 import getAllPostPreviews from '@/getAllPostPreviews'
 
@@ -15,12 +14,10 @@ export default function Home() {
         <meta name="twitter:creator" content="@leepownall" />
         <meta name="twitter:title" content="Lee Pownall" />
         <meta name="twitter:description" content="Lee Pownall" />
-        <meta name="twitter:image" content={`https://pownall.dev${twitterCard}`} />
         <meta property="og:url" content="https://pownall.dev" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Lee Pownall" />
         <meta property="og:description" content="Content from Lee Pownall" />
-        <meta property="og:image" content={`https://pownall.dev${twitterCard}`} />
         <title>Lee Pownall</title>
         <meta name="description" content="Lee Pownall" />
       </Head>
