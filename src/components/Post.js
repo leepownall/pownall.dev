@@ -54,11 +54,6 @@ export default function Post({ meta, children }) {
             <div className="pt-6 pb-16" dangerouslySetInnerHTML={{ __html: meta.footer }} />
           )}
         </div>
-        <footer className="pt-8">
-          <Link href="/">
-            <a className="font-medium leading-5 text-gray-500 hover:text-black">&larr; Back</a>
-          </Link>
-        </footer>
       </div>
     </article>
   )

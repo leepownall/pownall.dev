@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <meta name="msapplication-TileColor" content="#00aba9" />
+        <meta name="msapplication-TileColor" content="#fff" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
       <SectionContainer>
