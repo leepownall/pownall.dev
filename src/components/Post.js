@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import tinytime from 'tinytime'
 import { useRouter } from 'next/router'
 import { MDXProvider } from '@mdx-js/react'
 import Header from '@/components/Header'
@@ -12,6 +13,8 @@ export const mdxComponents = {
     <code className={`${className} text-gray-200`} {...props} />
   ),
 }
+
+const postDateTemplate = tinytime('{dddd}, {MMMM} {DD}, {YYYY}')
 
 export default function Post({ meta, children }) {
   const router = useRouter()
@@ -33,11 +36,14 @@ export default function Post({ meta, children }) {
         <meta property="og:image" content={`https://pownall.dev${meta.image}`} />
         <meta name="description" content={meta.description}></meta>
       </Head>
-      <Link href="/">
-        <a className="block font-medium leading-5 text-gray-500 hover:text-black pt-6">&larr; Back</a>
-      </Link>
-      <div className="pt-4 sm:pt-10">
+      <div className="pt-4 sm:pt-10 space-y-4">
         <Header title={meta.title} />
+        <div className="flex flex-row justify-between">
+          <time className="text-gray-500" dateTime={meta.date}>{postDateTemplate.render(new Date(meta.date))}</time>
+          <Link href="/">
+            <a className="block leading-5 font-medium text-gray-500 hover:text-black">&larr; Back</a>
+          </Link>
+        </div>
       </div>
       <div className="pb-16 xl:pb-20 pt-6">
         <div className="xl:pb-0 xl:col-span-3 xl:row-span-2">
