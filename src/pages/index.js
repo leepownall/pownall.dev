@@ -26,7 +26,7 @@ export default function Home() {
       </div>
       <div className="space-y-4 pt-6">
         <p>
-          Hello -- I'm a PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code.
+          Hello, I'm a PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code.
         </p>
         <p>
           Get in touch via <a className="underline" href="https://twitter.com/leepownall" target="_blank">Twitter</a> or email <a className="underline" href="mailto:pownall@hey.com">pownall@hey.com</a>.</p>
