@@ -24,7 +24,7 @@ export default function Home() {
       <div className="pt-8 sm:pt-20">
         <Header title="Lee Pownall" />
       </div>
-      <div className="space-y-4 pt-6">
+      <div className="space-y-4 pt-6 prose">
         <p>
           Hello, I'm a PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code.
         </p>
@@ -43,7 +43,7 @@ export default function Home() {
                         <a className="text-gray-900">{meta.title}</a>
                       </Link>
                     </h2>
-                    <div className="prose max-w-none text-gray-500">
+                    <div className="prose max-w-none">
                       <Component />
                     </div>
                   </div>
@@ -53,7 +53,7 @@ export default function Home() {
                         className="text-gray-500 hover:text-black"
                         aria-label={`Read "${meta.title}"`}
                       >
-                        Read more &rarr;
+                        Read more
                       </a>
                     </Link>
                   </div>

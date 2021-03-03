@@ -36,12 +36,16 @@ export default function Post({ meta, children }) {
         <meta property="og:image" content={`https://pownall.dev${meta.image}`} />
         <meta name="description" content={meta.description}></meta>
       </Head>
-      <div className="pt-4 sm:pt-10 space-y-4">
-        <Header title={meta.title} />
+      <div className="space-y-4">
+        <div className="pt-8 sm:pt-20">
+          <Header title={meta.title} />
+        </div>
         <div className="flex flex-row justify-between">
           <time className="text-gray-500" dateTime={meta.date}>{postDateTemplate.render(new Date(meta.date))}</time>
           <Link href="/">
-            <a className="block leading-5 font-medium text-gray-500 hover:text-black">&larr; Back</a>
+            <a className="block leading-5 font-medium text-gray-500 hover:text-black">
+              Back
+            </a>
           </Link>
         </div>
       </div>
