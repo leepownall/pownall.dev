@@ -14,7 +14,7 @@ export const mdxComponents = {
   ),
 }
 
-const postDateTemplate = tinytime('{dddd}, {MMMM} {DD}, {YYYY}')
+const postDateTemplate = tinytime('{dddd} {Do} {MMMM}, {YYYY}')
 
 export default function Post({ meta, children }) {
   const router = useRouter()
@@ -23,17 +23,15 @@ export default function Post({ meta, children }) {
     <article>
       <Head>
         <title>{meta.title} – Lee Pownall</title>
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@leepownall" />
         <meta name="twitter:creator" content="@leepownall" />
         <meta name="twitter:title" content={`${meta.title} – Lee Pownall`} />
         <meta name="twitter:description" content={meta.description} />
-        <meta name="twitter:image" content={`https://pownall.dev${meta.image}`} />
         <meta property="og:url" content={`https://pownall.dev${router.pathname}`} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={`${meta.title} – Lee Pownall`} />
         <meta property="og:description" content={meta.description} />
-        <meta property="og:image" content={`https://pownall.dev${meta.image}`} />
         <meta name="description" content={meta.description}></meta>
       </Head>
       <div className="space-y-4">

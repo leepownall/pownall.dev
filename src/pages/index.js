@@ -2,14 +2,17 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Header from '@/components/Header'
 import getAllPostPreviews from '@/getAllPostPreviews'
+import tinytime from 'tinytime'
 
 const posts = getAllPostPreviews()
+
+const postDateTemplate = tinytime('{dddd} {Do} {MMMM}, {YYYY}')
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@leepownall" />
         <meta name="twitter:creator" content="@leepownall" />
         <meta name="twitter:title" content="Lee Pownall" />
@@ -38,11 +41,14 @@ export default function Home() {
               <article className="space-y-2 xl:space-y-0 xl:items-baseline">
                 <div className="space-y-5 xl:col-span-3">
                   <div className="space-y-6">
-                    <h2 className="text-2xl leading-8 font-bold tracking-tight">
-                      <Link href={link}>
-                        <a className="text-gray-900">{meta.title}</a>
-                      </Link>
-                    </h2>
+                    <div>
+                      <h2 className="text-2xl leading-8 font-bold tracking-tight">
+                        <Link href={link}>
+                          <a className="text-gray-900">{meta.title}</a>
+                        </Link>
+                      </h2>
+                      <time className="text-gray-500 inline-block mt-4" dateTime={meta.date}>{postDateTemplate.render(new Date(meta.date))}</time>
+                    </div>
                     <div className="prose max-w-none">
                       <Component />
                     </div>
