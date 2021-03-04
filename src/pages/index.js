@@ -20,9 +20,9 @@ export default function Home() {
         <meta property="og:url" content="https://pownall.dev" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Lee Pownall" />
-        <meta property="og:description" content="Content from Lee Pownall" />
+        <meta property="og:description" content="Personal site of Lee Pownall, occasional blog post." />
         <title>Lee Pownall</title>
-        <meta name="description" content="Lee Pownall" />
+        <meta name="description" content="Personal site of Lee Pownall, occasional blog post." />
       </Head>
       <div className="pt-8 sm:pt-20">
         <Header title="Lee Pownall" />
