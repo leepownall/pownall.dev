@@ -32,7 +32,12 @@ export default function Home() {
           Hello, I'm a PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code.
         </p>
         <p>
-          Get in touch via <a className="underline" href="https://twitter.com/leepownall" target="_blank">Twitter</a> or email <a className="underline" href="mailto:pownall@hey.com">pownall@hey.com</a>.</p>
+          Get in touch via <a className="underline" href="https://twitter.com/leepownall" target="_blank">Twitter</a> or
+          email <a className="underline" href="mailto:pownall@hey.com">pownall@hey.com</a>.
+        </p>
+        <p>
+          You can view my open source work on <a className="underline" href="https://github.com/leepownall" target="_blank">GitHub</a>.
+        </p>
       </div>
       <ul className="divide-y divide-gray-200">
         {posts.map(({ link, module: { default: Component, meta } }) => {
