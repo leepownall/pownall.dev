@@ -26,11 +26,11 @@ export default function Post({ meta, children }) {
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@leepownall" />
         <meta name="twitter:creator" content="@leepownall" />
-        <meta name="twitter:title" content={`${meta.title} – Lee Pownall`} />
+        <meta name="twitter:title" content={`${meta.title}`} />
         <meta name="twitter:description" content={meta.description} />
         <meta property="og:url" content={`https://pownall.dev${router.pathname}`} />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content={`${meta.title} – Lee Pownall`} />
+        <meta property="og:title" content={`${meta.title}`} />
         <meta property="og:description" content={meta.description} />
         <meta name="description" content={meta.description}></meta>
       </Head>
