@@ -12,6 +12,7 @@ export default function App({ Component, pageProps }) {
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#fff" />
         <meta name="theme-color" content="#ffffff" />
+        <title>Lee Pownall</title>
       </Head>
       <SectionContainer>
         <main>
