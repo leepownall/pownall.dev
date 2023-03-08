@@ -1,39 +1,26 @@
 <x-layouts.app>
-    <x-container class="mt-9">
-        <div class="max-w-2xl">
-            <img class="rounded-full h-16 w-16 mb-6" src="images/me.png" />
-            <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-                Web developer, runner & cyclist.
-            </h1>
-            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                I’m Lee, a PHP Developer from the West Midlands. I specialise in
-                Laravel and focus on writing clean, maintainable, and testable code.
-            </p>
-            <div class="mt-6 flex gap-6 bg-grey-500">
-                <x-social-link
-                    href="https://twitter.com/leepownall"
-                    aria-label="Follow on Twitter"
-                >
-                    <x-icon.twitter />
-                </x-social-link>
-                <x-social-link
-                    href="https://github.com/leepownall"
-                    aria-label="Follow on GitHub"
-                >
-                    <x-icon.github />
-                </x-social-link>
-                <x-social-link
-                    href="https://www.linkedin.com/in/lee-pownall"
-                    aria-label="Follow on LinkedIn"
-                >
-                    <x-icon.linkedin />
-                </x-social-link>
-                <x-social-link
-                    href="mailto:lee@pownall.uk"
-                    aria-label="Email me"
-                >
-                    <x-icon.mail />
-                </x-social-link>
+    <x-container class="mt-6 sm:mt-9">
+        <div class="max-w-4xl">
+            <div class="text-4xl sm:text-5xl font-extrabold inline-block">
+              <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+                Lee Pownall
+              </h1>
+            </div>
+            <div class="mt-6 sm:mt-10">
+                <livewire:introduction />
+            </div>
+            <div class="mt-6 sm:mt-10 flex justify-center sm:justify-start">
+                <ul class="flex flex-row space-x-2">
+                    <li><a class="text-zinc-600 hover:underline" href="https://twitter.com/leepownall" target="_blank">Twitter</a></li>
+                    <li>•</li>
+                    <li><a class="text-zinc-600 hover:underline" href="https://github.com/leepownall" target="_blank">GitHub</a></li>
+                    <li>•</li>
+                    <li><a class="text-zinc-600 hover:underline" href="https://www.linkedin.com/in/lee-pownall" target="_blank">LinkedIn</a></li>
+                    <li>•</li>
+                    <li><a class="text-zinc-600 hover:underline" href="mailto:lee@pownall.uk">Email</a></li>
+                    <li>•</li>
+                    <li><a class="text-zinc-600 hover:underline" href="{{ route('previous-introductions') }}">Previous introductions</a></li>
+                </ul>
             </div>
         </div>
     </x-container>

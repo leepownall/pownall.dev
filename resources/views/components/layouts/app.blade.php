@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{{ config('app.name') }}</title>
+
+    @vite(['resources/css/app.css'])
+    <livewire:styles />
 </head>
 <body class="antialiased">
     {{ $slot }}
-    @vite(['resources/css/app.css'])
+    <livewire:scripts />
 </body>
 </html>

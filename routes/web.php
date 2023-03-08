@@ -1,8 +1,8 @@
 <?php
 
+use App\Http\Controllers\PreviousIntroductionsController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Posts;
 
 Route::view('/', 'home');
 
-Route::get('posts/{slug}', Posts\ViewController::class);
+Route::get('previous-introductions', PreviousIntroductionsController::class)->name('previous-introductions');
