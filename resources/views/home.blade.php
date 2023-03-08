@@ -10,7 +10,7 @@
                 <livewire:introduction />
             </div>
             <div class="mt-6 sm:mt-10 flex justify-center sm:justify-start">
-                <ul class="flex flex-row space-x-2">
+                <ul class="flex flex-row flex-wrap space-x-2">
                     <li><a class="text-zinc-600 hover:underline" href="https://twitter.com/leepownall" target="_blank">Twitter</a></li>
                     <li>•</li>
                     <li><a class="text-zinc-600 hover:underline" href="https://github.com/leepownall" target="_blank">GitHub</a></li>
