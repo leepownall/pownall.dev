@@ -46,7 +46,7 @@ class Introduction extends Component
                     'model' => 'gpt-3.5-turbo',
                     'messages' => [
                         [
-                            'role' => 'assistant',
+                            'role' => 'user',
                             'content' => $this->prompt(),
                         ],
                     ],
