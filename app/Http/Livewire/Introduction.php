@@ -46,7 +46,7 @@ class Introduction extends Component
                     'model' => 'gpt-3.5-turbo',
                     'messages' => [
                         [
-                            'role' => 'assistant',
+                            'role' => 'user',
                             'content' => $this->prompt(),
                         ],
                     ],
@@ -75,6 +75,6 @@ class Introduction extends Component
 
     private function prompt(): string
     {
-        return 'Expand on this sentence using a friendly tone in a first person narrative. Make the response under 400 characters. "PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code."';
+        return 'Expand on this sentence using a friendly tone in a first person narrative. Do not ask for contact. Do not mention gender. Make the response under 400 characters. "PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code."';
     }
 }
