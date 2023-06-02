@@ -1,7 +1,7 @@
 <x-layouts.app>
     <x-container class="mt-6 sm:mt-9">
         <div class="max-w-4xl">
-            <h1 class="text-4xl sm:text-5xl font-extrabold inline-block">
+            <h1 class="text-4xl sm:text-5xl font-extrabold inline-block text-slate-800">
                 Lee Pownall
             </h1>
             <div class="mt-6 sm:mt-10">
