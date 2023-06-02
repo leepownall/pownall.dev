@@ -8,6 +8,9 @@
 
     @vite(['resources/css/app.css'])
     <livewire:styles />
+
+    <meta name="description" content="A PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code.">
+    <meta name="google-site-verification" content="OwrZfqKUBnoxk2mTCy-vBsxdTzU026g3YFohQ3pFPYY">
 </head>
 <body class="antialiased">
     {{ $slot }}

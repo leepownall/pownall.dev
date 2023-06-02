@@ -1,13 +1,11 @@
 <x-layouts.app>
     <x-container class="mt-6 sm:mt-9">
         <div class="max-w-4xl">
-            <div class="text-4xl sm:text-5xl font-extrabold inline-block">
-              <h1 class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+            <h1 class="text-4xl sm:text-5xl font-extrabold inline-block">
                 Lee Pownall
-              </h1>
-            </div>
+            </h1>
             <div class="mt-6 sm:mt-10">
-                <livewire:introduction />
+                A PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code.
             </div>
             <div class="mt-6 sm:mt-10 flex justify-center sm:justify-start">
                 <ul class="flex flex-row flex-wrap space-x-2">
@@ -18,8 +16,6 @@
                     <li><a class="text-zinc-600 hover:underline" href="https://www.linkedin.com/in/lee-pownall" target="_blank">LinkedIn</a></li>
                     <li>•</li>
                     <li><a class="text-zinc-600 hover:underline" href="mailto:lee@pownall.uk">Email</a></li>
-                    <li>•</li>
-                    <li><a class="text-zinc-600 hover:underline" href="{{ route('previous-introductions') }}">Previous introductions</a></li>
                 </ul>
             </div>
         </div>
