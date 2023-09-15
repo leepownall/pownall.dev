@@ -20,7 +20,7 @@
             <ul class="list-disc list-inside mt-4">
                 <li>
                     <a href="https://jump24.co.uk/journal/laravel-blade-components" class="text-blue-500 hover:underline">Laravel Blade Components</a> - Short article for
-                    <a href="https://jump24.co.uk" class="text-blue-500 hover:underline">Jump24</a> given a brief introduction to Laravel's Blade Components.
+                    <a href="https://jump24.co.uk" class="text-blue-500 hover:underline">Jump24</a> giving a brief introduction to Laravel's Blade Components.
                 </li>
             </ul>
         </div>
