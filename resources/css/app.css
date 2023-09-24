@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.shiki {
+    @apply rounded-2xl p-4;
+}
