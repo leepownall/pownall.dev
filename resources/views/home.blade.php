@@ -9,7 +9,7 @@
         <meta property="og:description" content="A PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code." />
         <meta property="og:image" content="https://pownall.dev/images/lee-pownall.png" />
     </x-slot:meta>
-    <div class="flex flex-col space-y-6 sm:space-y-10 mt-6 sm:mt-9 px-4 pb-4 sm:px-8 max-w-7xl text-black">
+    <div class="flex flex-col space-y-6 sm:space-y-10 mt-6 sm:mt-9 px-4 pb-4 sm:px-8 max-w-5xl text-black">
         <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
             Lee Pownall
         </h1>
