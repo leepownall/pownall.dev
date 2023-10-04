@@ -12,6 +12,10 @@ class Post extends Model
 
     public static $driver = 'md';
 
+    public $casts = [
+        'date' => 'datetime',
+    ];
+
     public function getKeyName(): string
     {
         return 'slug';
@@ -21,7 +25,7 @@ class Post extends Model
     {
         $table->string('title');
         $table->string('slug');
-        $table->timestamp('date');
+        $table->dateTime('date');
         $table->text('description');
     }
 }

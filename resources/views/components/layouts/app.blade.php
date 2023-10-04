@@ -12,6 +12,8 @@
     <meta name="google-site-verification" content="OwrZfqKUBnoxk2mTCy-vBsxdTzU026g3YFohQ3pFPYY">
 
     {{ $meta }}
+
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </head>
 <body class="antialiased">
     {{ $slot }}

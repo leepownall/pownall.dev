@@ -8,21 +8,21 @@
         <meta property="og:title" content="{{ $post->title }}" />
         <meta property="og:description" content="{{ $post->description }}" />
     </x-slot:meta>
-    <article class="mt-6 sm:mt-9 px-2 sm:px-8 max-w-6xl">
-        <header class="flex flex-col">
-            <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+    <article class="mt-6 sm:mt-9 px-2 sm:px-8 max-w-5xl text-black">
+        <header class="flex flex-col border-b border-gray-150 pb-4">
+            <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
                 {{ $post->title }}
             </h1>
-            <time
-                dateTime="{{ $post->date }}"
-                class="mt-2 text-zinc-400 dark:text-zinc-500"
-            >
-                <span>{{ $post->date }}</span>
-            </time>
-            <a href="/" class="mt-4 prose">← Back</a>
+            <div class="flex space-x-2 items-center mt-4 text-lg">
+                <a href="/" class="text-blue-700 hover:underline">← Back</a>
+                <span>•</span>
+                <time dateTime="{{ $post->date }}">
+                    <span>{{ $post->date->format('l jS F Y') }}</span>
+                </time>
+            </div>
         </header>
         <main class="mt-4">
-            <x-markdown theme="github-dark" class="prose max-w-none">
+            <x-markdown theme="slack-dark" class="prose max-w-none text-lg text-black">
                 {!! $post->content !!}}
             </x-markdown>
         </main>
