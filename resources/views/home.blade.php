@@ -14,7 +14,7 @@
             Lee Pownall
         </h1>
         <div class="max-w-none font-semibold text-2xl">
-            A PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code.
+            PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code. I also like Livewire, Alpine.js, Tailwind CSS, Vue & Interia.
         </div>
         <div>
             <h2 class="text-2xl font-bold sm:text-3xl">Stuff I've made</h2>
