@@ -5,3 +5,7 @@
 .shiki {
     @apply rounded-lg px-5 py-4;
 }
+
+.cms-content a {
+    @apply text-blue-700 no-underline hover:underline;
+}

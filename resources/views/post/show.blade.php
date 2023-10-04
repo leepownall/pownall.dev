@@ -22,7 +22,7 @@
             </div>
         </header>
         <main class="mt-4">
-            <x-markdown theme="slack-dark" class="prose max-w-none text-lg text-black">
+            <x-markdown theme="slack-dark" class="prose max-w-none text-lg text-black cms-content">
                 {!! $post->content !!}}
             </x-markdown>
         </main>
