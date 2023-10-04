@@ -8,7 +8,7 @@
         <meta property="og:title" content="{{ $post->title }}" />
         <meta property="og:description" content="{{ $post->description }}" />
     </x-slot:meta>
-    <article class="mt-6 sm:mt-9 px-2 sm:px-8 max-w-5xl text-black">
+    <article class="mt-6 sm:mt-9 px-4 sm:px-8 pb-4 max-w-5xl text-black">
         <header class="flex flex-col border-b border-gray-150 pb-4">
             <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
                 {{ $post->title }}
