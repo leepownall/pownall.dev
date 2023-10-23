@@ -10,7 +10,7 @@
     </x-slot:meta>
     <article class="mt-6 sm:mt-9 px-4 sm:px-8 pb-4 max-w-5xl text-black">
         <header class="flex flex-col border-b border-gray-150 pb-4">
-            <h1 class="text-3xl font-bold tracking-tight sm:text-5xl">
+            <h1 class="text-2xl font-bold tracking-tight sm:text-5xl">
                 {{ $post->title }}
             </h1>
             <div class="flex space-x-2 items-center mt-4 text-lg">
