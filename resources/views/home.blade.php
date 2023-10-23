@@ -13,7 +13,7 @@
         <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
             Lee Pownall
         </h1>
-        <div class="max-w-none font-semibold text-2xl">
+        <div class="max-w-none font-semibold text-xl">
             PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code. I also like Livewire, Alpine.js, Tailwind CSS, Vue & Interia.
         </div>
         <div>
