@@ -29,14 +29,13 @@
             <x-h2>Things I've written</x-h2>
             <x-list>
                 <li>
-                    <x-link href="https://jump24.co.uk/journal/laravel-blade-components" external>Laravel Blade Components</x-link> - Short article for
-                    <x-link href="https://jump24.co.uk" external>Jump24</x-link> giving a brief introduction to Laravel's Blade Components.
+                    <x-link href="https://jump24.co.uk/journal/laravel-blade-components" external>Laravel Blade Components</x-link>
                 </li>
                 <li>
-                    <x-link href="post/prefix-laravel-passport-routes">Prefix Laravel Passport Routes</x-link> - How can you prefix Laravel Passport routes?
+                    <x-link href="post/prefix-laravel-passport-routes">Prefix Laravel Passport Routes</x-link>
                 </li>
                 <li>
-                    <x-link href="post/testing-laravel-rule-objects">Testing Laravel Rule Objects</x-link> - Laravel gives you the ability to create custom validation rules using rule objects, but how do you test them?
+                    <x-link href="post/testing-laravel-rule-objects">Testing Laravel Rule Objects</x-link>
                 </li>
             </x-list>
         </div>
