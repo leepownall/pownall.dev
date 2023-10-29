@@ -8,7 +8,7 @@
         <meta property="og:title" content="{{ $post->title }}" />
         <meta property="og:description" content="{{ $post->description }}" />
     </x-slot:meta>
-    <div class="mt-6 sm:mt-6 px-4 sm:px-8 pb-4 mx-auto max-w-prose">
+    <div class="mt-6 px-4 sm:px-8 pb-4 mx-auto max-w-prose">
         <header class="flex flex-col border-b border-gray-150 pb-4">
             <div class="flex space-x-2 items-center mt-4">
                 <x-link href="/">← Home</x-link>
