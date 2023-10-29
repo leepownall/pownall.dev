@@ -8,23 +8,24 @@
         <meta property="og:title" content="{{ $post->title }}" />
         <meta property="og:description" content="{{ $post->description }}" />
     </x-slot:meta>
-    <article class="mt-6 sm:mt-9 px-4 sm:px-8 pb-4 max-w-5xl text-black">
+    <div class="mt-6 sm:mt-6 px-4 sm:px-8 pb-4 mx-auto max-w-prose">
         <header class="flex flex-col border-b border-gray-150 pb-4">
-            <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">
+            <div class="flex space-x-2 items-center mt-4">
+                <x-link href="/">← Home</x-link>
+            </div>
+            <h1 class="text-4xl font-semibold text-gray-850 sm:text-4xl mt-4">
                 {{ $post->title }}
             </h1>
-            <div class="flex space-x-2 items-center mt-4 text-lg">
-                <a href="/" class="text-blue-700 hover:underline">← Back</a>
-                <span>•</span>
+            <div class="flex space-x-2 items-center mt-4">
                 <time dateTime="{{ $post->date }}">
                     <span>{{ $post->date->format('l jS F Y') }}</span>
                 </time>
             </div>
         </header>
-        <main class="mt-4">
-            <x-markdown theme="slack-dark" class="prose max-w-none text-lg text-black cms-content">
+        <article class="mt-4 prose max-w-none cms-content hyphens-auto">
+            <x-markdown theme="slack-dark">
                 {!! $post->content !!}}
             </x-markdown>
-        </main>
-    </article>
+        </article>
+    </div>
 </x-layouts.app>
