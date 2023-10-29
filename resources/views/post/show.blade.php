@@ -16,11 +16,15 @@
             <x-h1 class="mt-4">
                 {{ $post->title }}
             </x-h1>
-            <div class="flex space-x-2 items-center mt-4">
-                <time dateTime="{{ $post->date }}">
-                    <span>{{ $post->date->format('l jS F Y') }}</span>
-                </time>
-            </div>
+            <ul class="flex space-x-2 items-center mt-4">
+                <li>
+                    <time dateTime="{{ $post->date }}">
+                        <span>{{ $post->date->format('l jS F Y') }}</span>
+                    </time>
+                </li>
+                <li>•</li>
+                <li>{{ $readTime }}</li>
+            </ul>
         </header>
         <article class="mt-4 prose max-w-none cms-content hyphens-auto">
             <x-markdown theme="slack-dark">

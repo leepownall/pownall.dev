@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2607beff4ec54f769145168baf1928e",
+    "content-hash": "314db3f6eb929b5b7efc48c5fa9104cd",
     "packages": [
         {
             "name": "brick/math",
@@ -1762,6 +1762,80 @@
                 }
             ],
             "time": "2022-04-17T13:12:02+00:00"
+        },
+        {
+            "name": "leshkens/laravel-read-time",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Leshkens/laravel-read-time.git",
+                "reference": "6e9353fb15060b179c448e41fb61a3021a27237d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Leshkens/laravel-read-time/zipball/6e9353fb15060b179c448e41fb61a3021a27237d",
+                "reference": "6e9353fb15060b179c448e41fb61a3021a27237d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
+                "php": "^7.2.5|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^4.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Leshkens\\LaravelReadTime\\Providers\\ReadTimeServiceProvider"
+                    ],
+                    "aliases": {
+                        "ReadTime": "ReadTimeFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Support/helpers.php"
+                ],
+                "psr-4": {
+                    "Leshkens\\LaravelReadTime\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexey Chugunov",
+                    "email": "web@achugunov.ru",
+                    "homepage": "https://web.achugunov.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A package for laravel framework that shows users the approximate time to read content.",
+            "homepage": "https://github.com/leshkens/laravel-read-time",
+            "keywords": [
+                "Minutes",
+                "achugunov",
+                "article",
+                "blog",
+                "content",
+                "laravel",
+                "laravel-read-time",
+                "read",
+                "reading",
+                "time"
+            ],
+            "support": {
+                "issues": "https://github.com/Leshkens/laravel-read-time/issues",
+                "source": "https://github.com/Leshkens/laravel-read-time/tree/v1.3.0"
+            },
+            "time": "2023-05-28T09:46:54+00:00"
         },
         {
             "name": "livewire/livewire",
