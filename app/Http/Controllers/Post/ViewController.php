@@ -5,16 +5,13 @@ namespace App\Http\Controllers\Post;
 use App\Http\Controllers\Controller;
 use App\Models\Post;
 use Illuminate\Contracts\View\View;
-use Illuminate\Support\Str;
-use Leshkens\LaravelReadTime\Facades\ReadTime;
+use Pownall\ReadTime\ReadTime;
 
 class ViewController extends Controller
 {
     public function __invoke(Post $post): View
     {
-        $readTime = ReadTime::parse($post->content);
-        $unit = Str::plural($readTime->unit);
-        $readTime = "{$readTime->number} {$unit}";
+        $readTime = (new ReadTime())->from($post->content);
 
         return view('post.show', [
             'post' => $post,

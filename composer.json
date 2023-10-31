@@ -11,9 +11,9 @@
         "laravel/framework": "^10.0",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.7",
-        "leshkens/laravel-read-time": "^1.3",
         "livewire/livewire": "^2.12",
         "openai-php/laravel": "^0.3.4",
+        "pownall/read-time": "^0.0.3",
         "ryangjchandler/orbit": "^1.2",
         "spatie/laravel-markdown": "^2.4",
         "spatie/laravel-responsecache": "^7.4"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "80402020b621b5454360c00262adaf59",
+    "content-hash": "6da47890fd59dc684858a0b683e63537",
     "packages": [
         {
             "name": "brick/math",
@@ -1764,80 +1764,6 @@
             "time": "2022-04-17T13:12:02+00:00"
         },
         {
-            "name": "leshkens/laravel-read-time",
-            "version": "v1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Leshkens/laravel-read-time.git",
-                "reference": "6e9353fb15060b179c448e41fb61a3021a27237d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Leshkens/laravel-read-time/zipball/6e9353fb15060b179c448e41fb61a3021a27237d",
-                "reference": "6e9353fb15060b179c448e41fb61a3021a27237d",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
-                "php": "^7.2.5|^8.0"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^4.0",
-                "phpunit/phpunit": "^8.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Leshkens\\LaravelReadTime\\Providers\\ReadTimeServiceProvider"
-                    ],
-                    "aliases": {
-                        "ReadTime": "ReadTimeFacade"
-                    }
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/Support/helpers.php"
-                ],
-                "psr-4": {
-                    "Leshkens\\LaravelReadTime\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alexey Chugunov",
-                    "email": "web@achugunov.ru",
-                    "homepage": "https://web.achugunov.ru",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A package for laravel framework that shows users the approximate time to read content.",
-            "homepage": "https://github.com/leshkens/laravel-read-time",
-            "keywords": [
-                "Minutes",
-                "achugunov",
-                "article",
-                "blog",
-                "content",
-                "laravel",
-                "laravel-read-time",
-                "read",
-                "reading",
-                "time"
-            ],
-            "support": {
-                "issues": "https://github.com/Leshkens/laravel-read-time/issues",
-                "source": "https://github.com/Leshkens/laravel-read-time/tree/v1.3.0"
-            },
-            "time": "2023-05-28T09:46:54+00:00"
-        },
-        {
             "name": "livewire/livewire",
             "version": "v2.12.3",
             "source": {
@@ -2644,6 +2570,77 @@
                 }
             ],
             "time": "2023-02-25T19:38:58+00:00"
+        },
+        {
+            "name": "pownall/read-time",
+            "version": "0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leepownall/read-time.git",
+                "reference": "032afd7bed498adb362f17496315768f65c2acf1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leepownall/read-time/zipball/032afd7bed498adb362f17496315768f65c2acf1",
+                "reference": "032afd7bed498adb362f17496315768f65c2acf1",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^10.0",
+                "nesbot/carbon": "^2.0",
+                "php": "^8.1",
+                "spatie/laravel-package-tools": "^1.0"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.0",
+                "orchestra/testbench": "*",
+                "pestphp/pest": "^2.15",
+                "spatie/ray": "^1.28"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Pownall\\ReadTime\\ReadTimeServiceProvider"
+                    ],
+                    "aliases": {
+                        "ReadTime": "Pownall\\ReadTime\\Facades\\ReadTime"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pownall\\ReadTime\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lee Pownall",
+                    "email": "lee@pownall.uk",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is my package read-time",
+            "homepage": "https://github.com/leepownall/read-time",
+            "keywords": [
+                "leepownall",
+                "read-time"
+            ],
+            "support": {
+                "issues": "https://github.com/leepownall/read-time/issues",
+                "source": "https://github.com/leepownall/read-time/tree/0.0.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/leepownall",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-10-31T19:46:03+00:00"
         },
         {
             "name": "psr/container",
