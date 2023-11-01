@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "adadbf8fe2c7ddccb3010bb76db1944e",
+    "content-hash": "4cf3f7ffe7e530b73d598329ad55548a",
     "packages": [
         {
             "name": "brick/math",
@@ -2685,7 +2685,7 @@
         },
         {
             "name": "pownall/read-time",
-            "version": "dev-main",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leepownall/read-time.git",
@@ -2709,7 +2709,6 @@
                 "pestphp/pest": "^2.15",
                 "spatie/ray": "^1.28"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -2742,7 +2741,7 @@
             ],
             "support": {
                 "issues": "https://github.com/leepownall/read-time/issues",
-                "source": "https://github.com/leepownall/read-time/tree/main"
+                "source": "https://github.com/leepownall/read-time/tree/0.1.0"
             },
             "funding": [
                 {
@@ -10362,9 +10361,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "pownall/read-time": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
