@@ -13,7 +13,7 @@
         "laravel/tinker": "^2.7",
         "livewire/livewire": "^2.12",
         "openai-php/laravel": "^0.3.4",
-        "pownall/read-time": "^0.0.3",
+        "pownall/read-time": "dev-main",
         "ryangjchandler/orbit": "^1.2",
         "spatie/laravel-markdown": "^2.4",
         "spatie/laravel-responsecache": "^7.4"
@@ -24,6 +24,8 @@
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
+        "pestphp/pest": "^2.24",
+        "pestphp/pest-plugin-faker": "^2.0",
         "phpunit/phpunit": "^10.0",
         "spatie/laravel-ignition": "^2.0",
         "spatie/laravel-ray": "^1.33"
