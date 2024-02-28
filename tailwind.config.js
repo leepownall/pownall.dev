@@ -1,7 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-const defaultTheme = require('tailwindcss/defaultTheme')
-
 module.exports = {
   content: [
       "./resources/**/*.blade.php",
@@ -10,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
         fontFamily: {
-            sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+            sans: ['-apple-system', 'system-ui', 'BlinkMacSystemFont', "Segoe UI", 'Roboto', "Helvetica Neue", 'Arial', 'sans-serif'],
         },
     },
   },
