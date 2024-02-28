@@ -11,7 +11,7 @@ class ViewController extends Controller
 {
     public function __invoke(Post $post): View
     {
-        $readTime = (new ReadTime($post->content))->get($post->content);
+        $readTime = (new ReadTime($post->content))->get();
 
         return view('post.show', [
             'post' => $post,
