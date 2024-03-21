@@ -26,10 +26,10 @@
                 <li>{{ $readTime }}</li>
             </ul>
         </header>
-        <article class="mt-4 prose max-w-none cms-content hyphens-auto">
-            <x-markdown theme="slack-dark">
-                {!! $post->content !!}}
-            </x-markdown>
+        <article class="mt-4 prose prose-pre:bg-white prose-pre:text-black max-w-none  hyphens-auto">
+{{--            <x-markdown theme="slack-dark">--}}
+                {!! $content !!}}
+{{--            </x-markdown>--}}
         </article>
     </div>
 </x-layouts.app>

@@ -111,4 +111,3 @@ If you run `php artisan route:list --compact` again you will see:
 | POST     | api/oauth/clients   | Laravel\Passport\Http\Controllers\ClientController@store                  |
 | GET|HEAD | api/oauth/clients   | Laravel\Passport\Http\Controllers\ClientController@forUser                |
 ```
-
