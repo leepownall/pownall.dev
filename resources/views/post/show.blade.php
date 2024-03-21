@@ -27,9 +27,7 @@
             </ul>
         </header>
         <article class="mt-4 prose prose-pre:bg-white prose-pre:text-black max-w-none  hyphens-auto">
-{{--            <x-markdown theme="slack-dark">--}}
-                {!! $content !!}}
-{{--            </x-markdown>--}}
+            {!! $content !!}
         </article>
     </div>
 </x-layouts.app>
