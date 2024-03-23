@@ -13,9 +13,9 @@
             <div class="flex space-x-2 items-center mt-4">
                 <x-link href="/">← Home</x-link>
             </div>
-            <x-h1 class="mt-4">
+            <x-h2 class="mt-4">
                 {{ $post->title }}
-            </x-h1>
+            </x-h2>
             <ul class="flex space-x-2 items-center mt-4">
                 <li>
                     <time dateTime="{{ $post->date }}">
