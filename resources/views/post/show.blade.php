@@ -26,7 +26,7 @@
                 <li>{{ $readTime }}</li>
             </ul>
         </header>
-        <article class="mt-4 prose prose-pre:bg-white prose-pre:text-black max-w-none  hyphens-auto">
+        <article class="mt-4 prose prose-pre:bg-white prose-pre:text-black max-w-none hyphens-auto">
             {!! $content !!}
         </article>
     </div>

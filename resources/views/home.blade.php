@@ -20,8 +20,8 @@
             <x-h2>Stuff I've made</x-h2>
             <x-list>
                 <li>
-                    <x-link href="https://fridaymix.xyz">fridaymix</x-link> - App to find duplicate songs and display at what point we are in the playlist for works weekly collaborative
-                    playlist. Built on Laravel, Livewire, Alpine.js and Tailwind CSS. Source code available on <x-link href="https://github.com/leepownall/fridaymix">GitHub</x-link>.
+                    <x-link href="https://github.com/leepownall/fridaymix">fridaymix</x-link> - App to find duplicate songs and display at what point we are in the playlist for works weekly collaborative
+                    playlist. Built on Laravel, Livewire, Alpine.js and Tailwind CSS.
                 </li>
                 <li>
                     <x-link href="https://github.com/leepownall/read-time">readtime</x-link> - Small package to display read times of content.
