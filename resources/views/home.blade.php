@@ -9,15 +9,12 @@
         <meta property="og:description" content="A PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code." />
         <meta property="og:image" content="https://pownall.dev/images/lee-pownall.png" />
     </x-slot:meta>
-    <div class="flex flex-col space-y-6 sm:space-y-8 mt-6 px-4 pb-4 sm:px-8 mx-auto max-w-prose text-zinc-800 leading-relaxed hyphens-auto">
+    <div class="flex flex-col space-y-6 sm:space-y-8">
+        <p>
+            Hello, I'm a PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code. I also like Livewire, Alpine.js, Tailwind CSS, Vue & Interia.
+        </p>
         <div>
-            <x-h1>Lee Pownall</x-h1>
-            <p class="mt-4">
-                PHP Developer from the West Midlands. I specialise in Laravel and focus on writing clean, maintainable, and testable code. I also like Livewire, Alpine.js, Tailwind CSS, Vue & Interia.
-            </p>
-        </div>
-        <div>
-            <x-h2>Stuff I've made</x-h2>
+            <x-h2>Projects</x-h2>
             <x-list>
                 <li>
                     <x-link href="https://github.com/leepownall/fridaymix">fridaymix</x-link> - App to find duplicate songs and display at what point we are in the playlist for works weekly collaborative
@@ -29,7 +26,7 @@
             </x-list>
         </div>
         <div>
-            <x-h2>Things I've written</x-h2>
+            <x-h2>Posts</x-h2>
             <x-list>
                 <li>
                     <x-link href="https://jump24.co.uk/journal/laravel-blade-components" external>Laravel Blade Components</x-link>
