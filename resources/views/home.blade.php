@@ -41,7 +41,7 @@
         </div>
         <nav class="flex justify-center sm:justify-start">
             <ul class="flex flex-row flex-wrap space-x-2">
-                <li><x-link href="https://twitter.com/leepownall" external>Twitter</x-link></li>
+                <li><x-link href="https://x.com/leepownall" external>X</x-link></li>
                 <li>•</li>
                 <li><x-link href="https://twitter.com/leepownall" external>GitHub</x-link></li>
                 <li>•</li>

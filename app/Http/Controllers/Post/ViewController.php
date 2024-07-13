@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Post;
 use App\Http\Controllers\Controller;
 use App\Models\Post;
 use Illuminate\Contracts\View\View;
-use League\CommonMark\CommonMarkConverter;
 use League\CommonMark\Extension\CommonMark\Node\Inline\Code;
 use Pownall\ReadTime\ReadTime;
 use League\CommonMark\Environment\Environment;
